@@ -1,0 +1,152 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <style>
+        button{
+            line-height: 30px;
+            background-color: lime;
+            border: none;
+            padding: 20px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <button id="btn">Click me</button>
+    <button>Click me</button>
+    <button>Click me</button><br><br>
+
+    <a href="https://www.youtube.com">
+        YOUTUBE
+    </a>
+
+    <script>
+        // const btn = document.querySelectorAll('button');
+    //   btn.forEach(element => {
+    //       element.onclick = () => {
+    //           alert('click me');
+    //       }
+    //       btn[1].onclick = () => {
+    //           alert('2 ci ');
+    //       }
+    //       btn[2].onclick = () => {
+    //           alert('3-cu ');
+    //       }
+          
+    //   });
+
+
+    // const btn = document.querySelector('button');
+
+    // btn.addEventListener('click', () => {
+    //     alert('first click')
+    // })
+    // btn.addEventListener('click', () => {
+    //     alert('second click')
+    // })
+    // btn.addEventListener('click', () => {
+    //     alert('third click')
+    // })
+
+
+
+    </script>
+    
+
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <style>
+        button{
+            line-height: 30px;
+            background-color: lime;
+            border: none;
+            padding: 20px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Azerbaycanin paytaxti haradi?</h1>
+    <button id="btn">Shamaxi</button>
+    <button>Sabirabad</button>
+    <button>Baki</button>
+    <button>Gence</button><br><br>
+
+    <h1>Dunyanin en uzun cayi hansidir</h1>
+    <button id="btn">nil</button>
+    <button>amazon</button>
+    <button>berqa</button>
+    <button>astana</button><br><br>
+
+    <a href="https://www.youtube.com">
+        YOUTUBE
+    </a>
+
+    <script>
+        const btn = document.querySelectorAll('button');
+
+        // btn.onclick = () => {
+        //     alert('First click');
+        // }
+
+        // btn.onclick = () => {
+        //     alert('Second click');
+        // }
+
+        btn[0].addEventListener('click', (hadise) => {
+            hadise.target.style.backgroundColor = 'green';
+            hadise.target.style.borderRadius = '20px';
+        })
+        btn[1].addEventListener('click', (hadise) => {
+            hadise.target.style.backgroundColor = 'red';
+            hadise.target.style.borderRadius = '20px';
+        })
+        btn[2].addEventListener('click', (hadise) => {
+            hadise.target.style.backgroundColor = 'red';
+            hadise.target.style.borderRadius = '20px';
+        })
+        btn[3].addEventListener('click', (hadise) => {
+            hadise.target.style.backgroundColor = 'red';
+            hadise.target.style.borderRadius = '20px';
+        })
+
+
+        
+        btn[4].addEventListener('click', (hadiseler) => {
+            hadiseler.target.style.backgroundColor = 'green';
+            hadiseler.target.style.borderRadius = '20px';
+        })
+        btn[5].addEventListener('click', (hadiseler) => {
+            hadiseler.target.style.backgroundColor = 'red';
+            hadiseler.target.style.borderRadius = '20px';
+        })
+        btn[6].addEventListener('click', (hadiseler) => {
+            hadiseler.target.style.backgroundColor = 'red';
+            hadiseler.target.style.borderRadius = '20px';
+        })
+        btn[7].addEventListener('click', (hadiseler) => {
+            hadiseler.target.style.backgroundColor = 'red';
+            hadiseler.target.style.borderRadius = '20px';
+        })
+
+
+
+
+
+        // const btn = [button, button, button]
+    </script>
+    
+</body>
+</html>
+
